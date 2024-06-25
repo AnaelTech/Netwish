@@ -1,0 +1,7 @@
+.movie-thumbnail:hover .movie-info {
+  opacity: 1;
+  transform: scale(1.25);
+}
+.movie-info {
+  transition: all 0.5s;
+}
