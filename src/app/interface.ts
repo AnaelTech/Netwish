@@ -18,3 +18,12 @@ export interface movie {
 export interface ApiResponse {
   results: movie[];
 }
+
+export interface Genre {
+  id: number;
+  name: string;
+}
+
+export interface GenresResponse {
+  genres: Genre[];
+}
